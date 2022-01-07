@@ -320,7 +320,7 @@ export default function AddLiquidity({
       <AppBody>
         <AppHeader
           title={t('Add Liquidity')}
-          subtitle={t('Add liquidity to receive LP tokens')}
+          subtitle={t('Add liquidity to receive Vofi Tokens')}
           helper={t(
             'Liquidity providers earn a 0.17% trading fee on all trades made for that token pair, proportional to their share of the liquidity pool.',
           )}

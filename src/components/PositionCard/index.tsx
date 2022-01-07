@@ -77,7 +77,7 @@ export function MinimalPositionCard({ pair, showUnwrapped = false }: PositionCar
               <FixedHeightRow>
                 <RowFixed>
                   <Text color="secondary" bold>
-                    {t('LP tokens in your wallet')}
+                    {t('Vofi Tokens in your wallet')}
                   </Text>
                 </RowFixed>
               </FixedHeightRow>

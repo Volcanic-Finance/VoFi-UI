@@ -19,7 +19,7 @@ body:
       multiple: false
       options:
         - Farms
-        - Syrup Pools
+        - Burning Pools
         - Lottery
         - Prediction
         - IFO

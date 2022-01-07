@@ -97,12 +97,6 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Pools />
             </Route>
-            <Route path="/lottery">
-              <Lottery />
-            </Route>
-            <Route path="/ifo">
-              <Ifos />
-            </Route>
             <Route exact path="/teams">
               <Teams />
             </Route>
@@ -121,15 +115,6 @@ const App: React.FC = () => {
             <Route path="/prediction/leaderboard">
               <PredictionsLeaderboard />
             </Route>
-            <Route exact path="/voting">
-              <Voting />
-            </Route>
-            <Route exact path="/voting/proposal/create">
-              <CreateProposal />
-            </Route>
-            <Route path="/voting/proposal/:id">
-              <Proposal />
-            </Route>
 
             {/* NFT */}
             <Route path="/nfts">
@@ -141,9 +126,7 @@ const App: React.FC = () => {
             </Route>
 
             {/* Info pages */}
-            <Route path="/info">
-              <Info />
-            </Route>
+            
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}
             <Route exact strict path="/swap" component={Swap} />

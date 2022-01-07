@@ -134,7 +134,7 @@ export const useLpTokenPrice = (symbol: string) => {
     const valueOfBaseTokenInFarm = farmTokenPriceInUsd.times(farm.tokenAmountTotal)
     // Double it to get overall value in LP
     const overallValueOfAllTokensInFarm = valueOfBaseTokenInFarm.times(2)
-    // Divide total value of all tokens, by the number of LP tokens
+    // Divide total value of all tokens, by the number of Vofi Tokens
     const totalLpTokens = getBalanceAmount(farm.lpTotalSupply)
     lpTokenPrice = overallValueOfAllTokensInFarm.div(totalLpTokens)
   }

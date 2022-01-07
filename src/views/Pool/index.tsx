@@ -21,7 +21,7 @@ export default function Pool() {
   const { account } = useActiveWeb3React()
   const { t } = useTranslation()
 
-  // fetch the user's balances of all tracked V2 LP tokens
+  // fetch the user's balances of all tracked V2 Vofi Tokens
   const trackedTokenPairs = useTrackedTokenPairs()
   const tokenPairsWithLiquidityTokens = useMemo(
     () => trackedTokenPairs.map((tokens) => ({ liquidityToken: toV2LiquidityToken(tokens), tokens })),
@@ -94,7 +94,7 @@ export default function Pool() {
                 {t("Don't see a pool you joined?")}
               </Text>
               <Button id="import-pool-link" variant="secondary" scale="sm" as={Link} to="/find">
-                {t('Find other LP tokens')}
+                {t('Find other Vofi Tokens')}
               </Button>
             </Flex>
           )}

@@ -119,7 +119,7 @@ const RoiCalculatorModal: React.FC<RoiCalculatorModalProps> = ({
 
   const { targetRef, tooltip, tooltipVisible } = useTooltip(
     isFarm
-      ? t('“My Balance” here includes both LP Tokens in your wallet, and LP Tokens already staked in this farm.')
+      ? t('“My Balance” here includes both Vofi Tokens in your wallet, and Vofi Tokens already staked in this farm.')
       : t(
           '“My Balance” here includes both %assetSymbol% in your wallet, and %assetSymbol% already staked in this pool.',
           { assetSymbol: stakingTokenSymbol },

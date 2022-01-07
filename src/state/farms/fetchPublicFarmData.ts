@@ -31,13 +31,13 @@ const fetchFarm = async (farm: SerializedFarm): Promise<PublicFarmData> => {
       name: 'balanceOf',
       params: [lpAddress],
     },
-    // Balance of LP tokens in the master chef contract
+    // Balance of Vofi Tokens in the master chef contract
     {
       address: lpAddress,
       name: 'balanceOf',
       params: [getMasterChefAddress()],
     },
-    // Total supply of LP tokens
+    // Total supply of Vofi Tokens
     {
       address: lpAddress,
       name: 'totalSupply',
@@ -57,7 +57,7 @@ const fetchFarm = async (farm: SerializedFarm): Promise<PublicFarmData> => {
   const [tokenBalanceLP, quoteTokenBalanceLP, lpTokenBalanceMC, lpTotalSupply, tokenDecimals, quoteTokenDecimals] =
     await multicall(erc20, calls)
 
-  // Ratio in % of LP tokens that are staked in the MC, vs the total number in circulation
+  // Ratio in % of Vofi Tokens that are staked in the MC, vs the total number in circulation
   const lpTokenRatio = new BigNumber(lpTokenBalanceMC).div(new BigNumber(lpTotalSupply))
 
   // Raw amount of token in the LP, including those not staked
