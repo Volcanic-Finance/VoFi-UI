@@ -2,9 +2,9 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
+  title: 'VolcanicFinance',
   description:
-    'The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Burning Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
+    'The First Incentivise Burning and Yield Farming Protocol on DeFi Ecosystem ! Stake Your Rugged tokens and Earn VoFi token or other projects tokens, Build your portfolio by Earn VoFi token through yield farming or win it on Team Battles, then stake it in VoFiVaults to earn more tokens! Fixed Burns and Community Burns(new incentivise token Burn 🔥 Model Brought to you by VolcanicFinance Protocol), NFTs, and more, on a platform you can trust.',
   image: 'https://pancakeswap.finance/images/hero.png',
 }
 
