@@ -9,8 +9,8 @@ import StatCardContent from './StatCardContent'
 import GradientLogo from '../GradientLogoSvg'
 
 // Values fetched from bitQuery effective 6/9/21
-const txCount = 30841921
-const addressCount = 2751624
+const txCount = 0
+const addressCount = 0
 
 const Stats = () => {
   const { t } = useTranslation()
