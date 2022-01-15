@@ -1907,10 +1907,10 @@ export const testnetTokens = defineTokens({
   ),
   cake: new Token(
     TESTNET,
-    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    '0x11308e9DEeC78379aD62EA425D0fEc7fBe646925',
     18,
-    'CAKE',
-    'PancakeSwap Token',
+    'VoFi',
+    'VolcanicFinance Token',
     'https://pancakeswap.finance/',
   ),
   busd: new Token(

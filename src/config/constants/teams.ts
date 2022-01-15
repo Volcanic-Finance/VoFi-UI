@@ -4,8 +4,8 @@ import { Team } from './types'
 const teams: Team[] = [
   {
     id: 1,
-    name: 'Syrup Storm',
-    description: "The storm's a-comin! Watch out! These bulls are stampeding in a syrupy surge!",
+    name: 'Rugg Detectors',
+    description: "Greedy Developers Here we come.We Earn while Keeping DeFi clean.!",
     images: {
       lg: 'syrup-storm-lg.png',
       md: 'syrup-storm-md.png',
@@ -20,8 +20,8 @@ const teams: Team[] = [
   },
   {
     id: 2,
-    name: 'Fearsome Flippers',
-    description: "The flippening is coming. Don't get in these bunnies' way, or you'll get flipped, too!",
+    name: 'Rugg Chaser's',
+    description: "The squid Games is over, no more rugg pulls too!",
     images: {
       lg: 'fearsome-flippers-lg.png',
       md: 'fearsome-flippers-md.png',
@@ -36,7 +36,7 @@ const teams: Team[] = [
   },
   {
     id: 3,
-    name: 'Chaotic Cakers',
+    name: 'Meme Burners',
     description: 'Can you stand the heat? Stay out of the kitchen or you might get burned to a crisp!',
     images: {
       lg: 'chaotic-cakers-lg.png',
