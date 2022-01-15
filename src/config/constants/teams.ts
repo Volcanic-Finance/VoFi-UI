@@ -20,7 +20,7 @@ const teams: Team[] = [
   },
   {
     id: 2,
-    name: 'Rugg Chaser's',
+    name: 'Rugg Chaser',
     description: "The squid Games is over, no more rugg pulls too!",
     images: {
       lg: 'fearsome-flippers-lg.png',
