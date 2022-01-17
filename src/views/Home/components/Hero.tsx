@@ -110,7 +110,9 @@ const Hero = () => {
             {t('Rugged tokens are Burn 🔥 with Volcano.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Burn Rugged tokens,and Earn with the First Incentivise Burning and Yield Farming Protocol on The whole DeFi Ecosystem.')}
+            {t(
+              'Burn Rugged tokens,and Earn with the First Incentivise Burning and Yield Farming Protocol on The whole DeFi Ecosystem.',
+            )}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}

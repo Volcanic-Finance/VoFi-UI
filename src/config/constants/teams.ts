@@ -5,7 +5,7 @@ const teams: Team[] = [
   {
     id: 1,
     name: 'Rugg Detectors',
-    description: "Greedy Developers Here we come.We Earn while Keeping DeFi clean.!",
+    description: 'Greedy Developers Here we come.We Earn while Keeping DeFi clean.!',
     images: {
       lg: 'syrup-storm-lg.png',
       md: 'syrup-storm-md.png',
@@ -20,8 +20,8 @@ const teams: Team[] = [
   },
   {
     id: 2,
-    name: 'Rugg Chaser's',
-    description: "The squid Games is over, no more rugg pulls too!",
+    name: 'Rugg Chasers',
+    description: 'The squid Games is over, no more rugg pulls too!',
     images: {
       lg: 'fearsome-flippers-lg.png',
       md: 'fearsome-flippers-md.png',
